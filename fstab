@@ -1,0 +1,6 @@
+PARTLABEL="aps_root" /          ext4 defaults 0 1
+PARTLABEL="aps_boot" /boot      ext4 defaults 0 2
+PARTLABEL="aps_home" /home      ext4 defaults 0 0
+PARTLABEL="aps_swap" swap       swap defaults 0 0
+tmpfs                /tmp       tmpfs size=1G 0 0
+tmpfs                /var/cache tmpfs size=1G 0 0
