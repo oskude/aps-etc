@@ -1,0 +1,11 @@
+filesystem
+syslinux
+gdisk
+linux
+systemd
+systemd-sysvcompat
+bash
+pacman
+nano
+iputils
+iproute2
